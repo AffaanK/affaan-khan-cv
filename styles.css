@@ -3,6 +3,11 @@
   .new-page {
     page-break-before: always;
   }
+  a {
+    pointer-events: none;
+    color: #000;
+    text-decoration: none;
+  }
 }
 
 * {
@@ -22,6 +27,9 @@ body {
 a {
   color: white;
   text-decoration: none
+}
+p{
+  font-size: 12px;
 }
 
 .bold {
@@ -49,14 +57,14 @@ a {
 
 .resume .resume_left .resume_profile {
   width: 100%;
-  height: 280px;
+  
 }
 
 .resume .resume_left .resume_profile img {
-  width: 90%;
+  width: 50%;
   height: 90%;
   border-radius: 5%;
-  margin-left: 12px;
+  margin-left: 25%;
   margin-top: 8px;
 }
 
@@ -177,7 +185,7 @@ a {
 }
 
 .resume .resume_right ul li .date {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   margin-bottom: 5px;
 }
